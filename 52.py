@@ -79,13 +79,14 @@ def only_letters(*, letters=[], case='default'):
 
 def get_output(file_number):
     output = ''
-    output_line = randint(0,8)
+    total_lines = randint(1,5)
+    output_line = randint(0,total_lines)
     for i in range(0, output_line):
         output += letters_removed(letters=[letter_sets['upper_all'][file_number]], case='upper')
         output += "\n"
     output += only_letters(letters=[letter_sets['upper_all'][file_number]], case='upper')
     output += "\n"
-    for i in range(0, 8 - output_line):
+    for i in range(0, total_lines - output_line):
         output += letters_removed(letters=[letter_sets['upper_all'][file_number]], case='upper')
         output += "\n"
     return output
