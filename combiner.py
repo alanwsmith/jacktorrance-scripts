@@ -49,7 +49,7 @@ All work and no play makes Jack a dull boy''',
 file_list.sort()
 
 # randomize when you're ready to generate for the site
-random.shuffle(file_list)
+# random.shuffle(file_list)
 
 for file in file_list:
     print(file)
