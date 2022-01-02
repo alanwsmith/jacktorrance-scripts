@@ -49,7 +49,7 @@ All work and no play makes Jack a dull boy''',
 file_list.sort()
 
 # randomize when you're ready to generate for the site
-# random.shuffle(file_list)
+random.shuffle(file_list)
 
 for file in file_list:
     print(file)
@@ -58,7 +58,7 @@ for file in file_list:
 
 
 # end with this one
-contents.append('I could really use some redrum...')
+contents.append('~ REDRUM ~')
 
 output_path = '/Users/alans/workshop/jacktorrance.blog/components/Pages.js'
 
