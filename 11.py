@@ -23,9 +23,10 @@ def get_output():
     return output
 
 
-for file_number in range(1,2):
-    output_path = f'output/{base_filename}-{file_number}.txt'
-    output_data = get_output()
-    with open(output_path, 'w') as _file:
-        _file.write(output_data)
-    print(output_data)
+# # Skipping this one as it's duplicated in a later run
+# for file_number in range(1,2):
+#     output_path = f'output/{base_filename}-{file_number}.txt'
+#     output_data = get_output()
+#     with open(output_path, 'w') as _file:
+#         _file.write(output_data)
+#     print(output_data)

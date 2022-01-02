@@ -58,7 +58,7 @@ for file in file_list:
 
 
 # end with this one
-contents.append('to be continued...')
+contents.append('I could really use some redrum...')
 
 output_path = '/Users/alans/workshop/jacktorrance.blog/components/Pages.js'
 
